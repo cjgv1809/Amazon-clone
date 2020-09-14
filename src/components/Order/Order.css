@@ -1,0 +1,29 @@
+.order {
+  padding: 40px;
+  margin: 20px 0;
+  border: 1px solid lightgray;
+  background-color: white;
+  position: relative;
+}
+
+.order-id {
+  position: absolute;
+  top: 40px;
+  right: 20px;
+}
+
+.order-total {
+  font-weight: bold;
+  text-align: right;
+}
+
+@media all and (max-width: 600px) {
+  .order-total {
+    text-align: center;
+  }
+  .order-id {
+    top: 10px;
+    right: 10px;
+    font-size: smaller;
+  }
+}
